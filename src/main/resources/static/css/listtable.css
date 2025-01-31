@@ -1,0 +1,77 @@
+/* Đặt kiểu cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Đặt kiểu cho tiêu đề bảng */
+thead {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Đặt kiểu cho các ô tiêu đề */
+thead th {
+    padding: 12px 15px;
+}
+
+/* Đặt kiểu cho các hàng */
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Đặt kiểu cho các ô dữ liệu */
+tbody td {
+    padding: 12px 15px;
+}
+
+/* Đặt kiểu cho các hàng xen kẽ */
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Đặt kiểu cho các hàng khi di chuột qua */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Đặt kiểu cho các nút */
+.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
